@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Perfumes</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right,#000,#222);
+}
+
+header h1{
+    font-size:3rem;
+    color:gold;
+}
+
+header p{
+    margin-top:10px;
+    color:#ddd;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.card{
+    background:#1c1c1c;
+    border-radius:15px;
+    overflow:hidden;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:15px 0;
+}
+
+.price{
+    color:gold;
+    font-size:1.2rem;
+    margin-bottom:15px;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Luxury Perfumes</h1>
+    <p>Discover Premium Fragrances</p>
+</header>
+
+<section class="products">
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=800" alt="">
+    <h3>Dior Sauvage</h3>
+    <div class="price">2500 EGP</div>
+    <a class="btn" href="https://wa.me/201XXXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=800" alt="">
+    <h3>Creed Aventus</h3>
+    <div class="price">3500 EGP</div>
+    <a class="btn" href="https://wa.me/201XXXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+    <img src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800" alt="">
+    <h3>Bleu de Chanel</h3>
+    <div class="price">3000 EGP</div>
+    <a class="btn" href="https://wa.me/201XXXXXXXXX">Order Now</a>
+</div>
+
+</section>
+
+<footer>
+    © 2026 Luxury Perfumes
+</footer>
+
+</body>
+</html>
